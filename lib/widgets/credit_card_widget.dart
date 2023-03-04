@@ -19,7 +19,7 @@ class _CreditCardWidgetState extends State<CreditCardWidget> {
       transform: Matrix4.identity()
         ..setEntry(3, 2, 0.001)
         ..rotateX(angle / 180 * pi),
-      child: Image.asset('images/card-front.png'),
+      child: Image.asset('assets/images/card-front.png'),
     );
   }
 
@@ -31,7 +31,7 @@ class _CreditCardWidgetState extends State<CreditCardWidget> {
         ..rotateX(
           angle / 180 * pi,
         ),
-      child: Image.asset('images/card-back.png'),
+      child: Image.asset('assets/images/card-back.png'),
     );
   }
 
